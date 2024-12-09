@@ -116,8 +116,9 @@
     }
     
     #blockA h4 {
-      letter-spacing: 1px;
+      color: #5F3B25;
     }
+    
     
     #blockB {
       width: 100%;
@@ -127,6 +128,19 @@
       top: 42px;
       padding-top: 10px;
       padding-left: 60px;
+    }
+    
+     #blockB1 {
+      width: 300px;
+      height: 94px;
+      position: fixed;
+      top: 42px;
+      margin-left: 1100px;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; 
+      text-align: center;  
     }
     
     #blockC {
@@ -154,7 +168,40 @@
       border-radius: 21px;
     }   
     
+    #blockD h4 {
+      display: flex; 
+      margin-top: 10px;
+      margin-left: 20px;
+      align-items: center;
+      text-align: center;
+      color: #999999;
+    }
     
+     #blockE {
+      width: 100%;
+      height: 609px;
+      background-color: pink;
+      position: relative;
+      top: 180px;
+    }
+    
+    #blockE h2, h4 {
+      color: white;
+    }
+    
+    .top-left {
+      position: absolute;
+      top: 50px;
+      margin-left: 60px;
+    }
+    
+    #blockF {
+      width: 100%;
+      height: 609px;
+      background-color: pink;
+      position: relative;
+      top: 180px;
+    }
     
    
    </style>
@@ -163,16 +210,45 @@
 <body>
   
   <div id="blockA">
+    
     <h4>FREE SHIPPING FOR ORDERS OVER $150!</h4>
+    
+  </div>
+  
+    <div id="blockE">
+    <img src="tableware.png" alt="tableware" width="1512" height="609">
+    <div class="top-left">
+      <h2>
+        Chic and Sustainable. <br>
+      </h2>
+      <h4>
+        Our goal is to create home and lifestyle goods with a signature aesthetic that is casual and refined, and stems from the idea that what’s <br> beautiful and chic is always accessible. Emphasis is placed on developing products that reflect a love of quality and craftsmanship and <br> are either produced locally or sourced from sustainable materials.
+      </h4>
+    </div>
+  </div>
+ 
+  <div id="blockF">
+    
   </div>
   
    
   <div id="blockB">
-    <div id="blockD">
+    <div id="blockD"> 
+      <h4>
+        <i class="fa fa-search" style="font-size:24px"></i> &nbsp SEARCH
+      </h4>
     </div>
     <h1><a href="https://j45sun.github.io/A3/">XENIA TALER</a></h1>
-  </div>
     
+    <div id="blockB1">
+      <h4>
+        <i class="fa fa-map-marker" style="font-size:24px"></i>
+        &nbspSTORE LOCATIONS &nbsp &nbsp &nbsp
+        <i class="fa fa-shopping-bag" style="font-size:24px"></i> &nbspBAG
+      </h4>
+    </div>
+  </div>
+  
   <div id="blockC">
      <ul>
       <li><a class="active" href="https://j45sun.github.io/A3.1/">NEW ARRIVALS</a></li>
@@ -184,7 +260,6 @@
       <li><a href="#SUPPORT">SUPPORT</a></li>
     </ul>
   </div>
-  
     
   </body>
 </html>
