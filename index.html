@@ -255,8 +255,8 @@
     
     #blockG {
       width: 100%;
-      height: 830px;
-      background-color: #96C5F7;
+      height: 200px;
+      background-color: white;
       position: relative;
       top: 180px;
     }
@@ -272,15 +272,88 @@
     #blockG2 {
       width: 1132px;
       height: 220px;
-      background-color: pink;
+      background-color: transparent;
       position: relative;
       margin-left: 190px;
+    }
+    
+     #blockG3 {
+      width: 1132px;
+      height: 27px;
+      background-color: transparent;
+      position: relative;
+      top: 40px;
       display: flex; 
       align-items: center;
       justify-content: center;
       flex-direction: column; 
       text-align: center;  
     }
+    
+    #blockG4 {
+      width: 1132px;
+      height: 38px;
+      background-color: transparent;
+      position: relative;
+      top: 80px;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      text-align: center;  
+    }
+    
+    .button {
+      background-color: white; /* https://www.w3schools.com/css/css3_buttons.asp */           
+      border: 1px solid #6C6B6B;             
+      border-radius: 4px;       
+      padding: 10px 20px;       
+      font-size: 16px;          
+      cursor: pointer; 
+      font-family: "Albert Sans";
+      letter-spacing: 1px;
+      color: #6C6B6B;
+      margin-left: 60px;
+    }
+    
+    #blockK {
+      width: 100%;
+      height: 330px;;
+      background-color: #555555; 
+      top: 180px;
+      position: relative;
+    }
+    
+    #blockK1 {
+      width: 1392px;
+      height: 280px;
+      position: absolute;
+      left: 60px;
+      top: 40px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    table, td {
+      border: 1px solid transparent;
+      border-collapse: collapse;
+      width: 100px;
+      height: 40px;
+      font-family: "Albert Sans";
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: white;
+    }
+    
+    th {
+      font-family: "Albert Sans";
+      font-size: 16px;
+      color: white;
+      height: 50px;
+      text-align: left;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+    
 
    
    </style>
@@ -346,14 +419,66 @@
   </div>
   
   <div id="blockG">
-    <div id="blockG1">
-      
-    </div>
-    <div id="blockG2">
-      
+    <div id="blockG1"> 
     </div>
     
+    <div id="blockG2">
+      <div id="blockG3">
+        <h3>
+          EXPLORE XENIA TALER
+        </h3>
+      </div>
+      
+      <div id="blockG4">
+        <button class="button" type="button">NEW ARRIVALS</button>
+        <button class="button" type="button">SALES</button>
+        <button class="button" type="button">SHOP ALL</button>
+      </div>
+      
+    </div> 
   </div>
+  
+      <div id="blockK">
+    <div id="blockK1">
+      <table style="width:100%">
+  <tr>
+    <th>Our Company</th>
+    <th>Customer Support</th> 
+    <th>Company Information</th>
+    <th>About Us</th>
+    <th>Social Media</th>
+  </tr>
+  <tr>
+    <td>Store Locations</td>
+    <td><a href="mailto:j45sun@uwaterloo.ca" style="color: white;">Contact Us</a></td>
+    <td>Product Info</td>
+    <td>Our Story</td>
+    <td><a href="https://www.instagram.com/xeniataler/?hl=en"><i class="fa fa-instagram" style="font-size:36px;"></i></a>
+    <i class="fa fa-twitter" style="font-size:36px;margin-left:20px;"></i>
+    <i class="fa fa-facebook-square" style="font-size:36px;margin-left:20px;"></i></td>
+  </tr>
+  <tr>
+    <td>Billing Information</td>
+    <td>Track Your Order</td>
+    <td>Stocklist</td>
+    <td>Our Stores</td>
+  </tr>
+  <tr>
+    <td>Shipping &amp; Returns</td>
+    <td>Your Account</td>
+    <td>Wholesale</td>
+    <td>Careers</td>
+  </tr>
+  <tr>
+    <td>Privacy Policy</td>
+    <td>FAQ</td>
+  </tr>
+  <tr>
+    <td>Terms &amp; Conditions </td>
+  </tr>
+</table>
+</div>
+</div>
   
    
   <div id="blockB">
