@@ -24,7 +24,8 @@
       padding: 0;
       width: 100%;
       height: 100%;
-      box-sizing: border-box; /* cite this */
+      background-color: white;
+      box-sizing: border-box; 
     }
     
     h1 {font-family: DM Sans;
@@ -104,7 +105,7 @@
       opacity: 1;
     }
       
-    #blockA {
+    #blockA { /* top yellow box */
       width: 100%;
       height: 42px;
       background-color: #F9D788;
@@ -120,7 +121,7 @@
     }
     
     
-    #blockB {
+    #blockB { /* Second box below yellow box */ 
       width: 100%;
       height: 94px;
       background-color: white;
@@ -147,7 +148,7 @@
       color: #6C6B6B;
     }
     
-    #blockC {
+    #blockC { /* navigation bar */ 
       width: 100%;
       height: 30px;
       background-color: white;
@@ -158,10 +159,9 @@
       border: 1px solid #EDEDED;
       display: flex;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
-      /*cite this*/
     }
     
-    #blockD {
+    #blockD { /* search bar */ 
       width: 700px;
       height: 42px;
       background-color: #F1F1F1;
@@ -181,7 +181,7 @@
       color: #999999;
     }
     
-     #blockE {
+     #blockE { /* image block */ 
       width: 100%;
       height: 609px;
       background-color: pink;
@@ -189,7 +189,7 @@
       top: 180px;
     }
     
-    #blockE h2, h4 {
+    #blockE h2, h4 { 
       color: white;
       line-height: 17px;
     }
@@ -200,7 +200,7 @@
       margin-left: 60px;
     }
     
-    #blockF {
+    #blockF { /* about us */ 
       width: 100%;
       height: 830px;
       background-color: white;
@@ -253,7 +253,7 @@
       margin-top: 60px;
     }
     
-    #blockG {
+    #blockG { /* explore xenia taler */ 
       width: 100%;
       height: 200px;
       background-color: white;
@@ -303,7 +303,7 @@
     }
     
     .button {
-      background-color: white; /* https://www.w3schools.com/css/css3_buttons.asp */           
+      background-color: white;           
       border: 1px solid #6C6B6B;             
       border-radius: 4px;       
       padding: 10px 20px;       
@@ -314,6 +314,13 @@
       color: #6C6B6B;
       margin-left: 60px;
     }
+    
+    /*Code copied from:  /* https://www.w3schools.com/css/css3_buttons.asp 
+    Author: w3schools
+    Name: button
+    Description: The CSS Styling for the buttons and the HTML for declaring the button is referenced frorm W3SChools
+    Date retrieved: 9 December 2024
+    */
     
     #blockK {
       width: 100%;
@@ -353,8 +360,6 @@
       font-weight: normal;
       letter-spacing: 1px;
     }
-    
-
    
    </style>
 </head>
@@ -493,7 +498,7 @@
       <h4>
         <i class="fa fa-map-marker" style="font-size:24px"></i>
         &nbspSTORE LOCATIONS &nbsp &nbsp &nbsp
-        <i class="fa fa-shopping-bag" style="font-size:24px"></i> &nbspBAG
+        <i class="fa fa-shopping-bag" style="font-size:24px"></i> &nbspBAG <!-- the &nbsp is used as an empty space character -->
       </h4> 
     </div>
   </div>
